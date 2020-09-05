@@ -1,3 +1,6 @@
+# SpotiByeBye
+# by @SakDev (github)
+
 import os
 import time
 import spotipy
