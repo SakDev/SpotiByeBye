@@ -1,5 +1,5 @@
-{spotifyUsername: "#EnterUsernameHere"
-spotifyClientID: "#EnterClientIDHere"
-spotifyClientSecret: "#EnterClientSecretHere"
-spotifyAccessScope: "user-read-currently-playing user-modify-playback-state"
-spotifyRedirectURI: "http://google.com/"}
+{"spotifyUsername": "#EnterUsernameHere",
+"spotifyClientID": "#EnterClientIDHere",
+"spotifyClientSecret": "#EnterClientSecretHere",
+"spotifyAccessScope": "user-read-currently-playing user-modify-playback-state",
+"spotifyRedirectURI": "http://google.com/"}

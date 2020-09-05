@@ -6,7 +6,7 @@ import time
 import spotipy
 import spotipy.util as util
 from pynput.keyboard import Key, Controller
-
+import json
 keyboard = Controller()
 
 
@@ -37,13 +37,15 @@ def restartSpotify():
     closeSpotify()
     openSpotify()
     playSpotify()
-
-
-spotifyUsername = "#EnterUsernameHere"
-spotifyClientID = "#EnterClientIDHere"
-spotifyClientSecret = "#EnterClientSecretHere"
-spotifyAccessScope = "user-read-currently-playing user-modify-playback-state"
-spotifyRedirectURI = "http://google.com/"
+#load options.json
+with open('options.json', 'r') as f:
+    options = json.load(f)
+#Set variables equal to options.json equivalent
+spotifyUsername = options["spotifyUsername"]
+spotifyClientID = options["#spotifyClientID"]
+spotifyClientSecret = options["spotifyClientSecret"]
+spotifyAccessScope = options["spotifyAccessScope"]
+spotifyRedirectURI = options["spotifyRedirectURI"]
 
 def setupSpotifyObject(username, scope, clientID, clientSecret, redirectURI):
     token = util.prompt_for_user_token(username, scope, clientID, clientSecret, redirectURI)
