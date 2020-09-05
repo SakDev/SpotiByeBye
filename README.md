@@ -1,6 +1,6 @@
 # SpotiByeBye
 ## How it works
-The program detects when an advertisement plays by monitoring the type of what track is currently playing using the Spotipy API. 
+The program detects when an advertisement plays by monitoring the type of the track that is currently playing, using the Spotipy API. 
 When an ad is detected, the program restarts Spotify by the os module and plays it via pynput.
 
 ## Setting up the Spotify API
