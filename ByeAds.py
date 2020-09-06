@@ -43,7 +43,7 @@ spotifyUsername = "#EnterUsernameHere"
 spotifyClientID = "#EnterClientIDHere"
 spotifyClientSecret = "#EnterClientSecretHere"
 spotifyAccessScope = "user-read-currently-playing user-modify-playback-state"
-spotifyRedirectURI = "http://google.com/"
+spotifyRedirectURI = "https://google.com/"
 
 def setupSpotifyObject(username, scope, clientID, clientSecret, redirectURI):
     token = util.prompt_for_user_token(username, scope, clientID, clientSecret, redirectURI)
