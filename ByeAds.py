@@ -42,7 +42,7 @@ with open('options.json', 'r') as f:
     options = json.load(f)
 #Set variables equal to options.json equivalent
 spotifyUsername = options["spotifyUsername"]
-spotifyClientID = options["#spotifyClientID"]
+spotifyClientID = options["spotifyClientID"]
 spotifyClientSecret = options["spotifyClientSecret"]
 spotifyAccessScope = options["spotifyAccessScope"]
 spotifyRedirectURI = options["spotifyRedirectURI"]
