@@ -39,9 +39,9 @@ def restartSpotify():
     playSpotify()
 
 
-spotifyUsername = "#EnterUsernameHere"
-spotifyClientID = "#EnterClientIDHere"
-spotifyClientSecret = "#EnterClientSecretHere"
+spotifyUsername = "#Surprisingly_abhay"
+spotifyClientID = "#9dcf348bc18e48d196efdf3b400213e9"
+spotifyClientSecret = "#39981427a0ac495896c4ab58c9c0a2f3"
 spotifyAccessScope = "user-read-currently-playing user-modify-playback-state"
 spotifyRedirectURI = "http://google.com/"
 
